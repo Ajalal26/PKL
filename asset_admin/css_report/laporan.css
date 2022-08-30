@@ -1,0 +1,86 @@
+/*LAPORAN*/
+table,
+table tr th,
+table tr td
+{border-collapse: collapse;}
+table tr th, table tr td{padding:2px;}
+
+
+.boxLaporan{margin-top: 20px;position: relative;}
+.headerTitle{width: 277px;margin:0 auto;}
+.headerTitle.tipe2{width: 700px;margin:0 auto}
+.headerTitle.tipe3{width: 460px;float: right;position: relative; margin: 0px}
+.boxLaporan h1{font-size: 12px;font-weight: bold;}
+.boxLaporan h1.tipe2{font-size: 12px;text-align: center;}
+.boxLaporan h1.tipe2 div{text-align: center;line-height: 14px}
+.boxLaporan h3{font-size: 10px}
+.boxLaporan h3.tipe3 div:first-child{margin-bottom: 5px;}
+.boxLaporan h3.tipe3 div{line-height: 14px;font-size: 10px;}
+.smallTitle{margin-top: 5px;}
+.smallTitle div.nomor{float: left}
+.smallTitle div.nom_val{float: right; text-align: right;}
+.boxContent{}
+.boxDesc{margin-top: 10px;border: 1px solid;}
+.boxDesc table{width: 100%;}
+.boxDesc table.tb1{float: left;}
+.boxDesc table.tb1 tr td{font-size: 8px}
+.boxDesc table.tb1 th{text-align: center;}
+.boxDesc table.tb2{float: right;}
+.boxDesc table.tb2 th{text-align: center;}
+.boxcontentUtama{
+    margin-top: 10px;
+}
+.boxcontentUtama table.boxBordered{width: 100%;}
+.boxcontentUtama table.boxBordered th{font-size: 8px;font-weight: bold;text-align: center;border: 1px solid #373737;vertical-align: middle;line-height: 14px}
+.boxcontentUtama table.boxBordered td{border: 1px solid #373737;font-size: 8px;}
+.boxcontentUtama table.boxBordered td div{line-height: 12px;}
+/*td.rp,
+th.rp
+{text-align: right;}
+td.rp span, th.rp div{float: right;}
+td.rp::before, th.rp::before{
+    content: 'Rp ';
+    float: left;
+}*/
+.boxcontentUtama table.boxBordered td .boxNoneBordered{width: 100%;margin-top: 0px;}
+.boxcontentUtama table.boxBordered td .boxNoneBordered td{border: 0px;vertical-align: top;padding:0px; }
+.boxcontentUtama table.boxBordered td .boxNoneBordered td.tdBorderTop{border-top: 1px solid #373737}
+.boxSign{
+    margin-top: 70px;
+    width: 100%;
+}
+.boxSign table{width: 100%}
+.boxSign div{
+    line-height: 16px;
+    text-align: center;
+}
+.boxSign table.oneSign{
+    float: right;
+    width: 300px;
+}
+.boxSign.styleSign2{border-top: 1px solid #373737;margin-top: 20px}
+.boxSign.styleSign2 div{text-align: left;}
+
+.boxPrintKwitansiOuter{
+    border: 1px solid #373737;
+    margin-top: 0px;
+}
+.boxKwitansiOuter{
+    margin-top: 0px;
+    padding: 0px 10px 10px 10px;
+}
+.boxKwitansi{margin-top: 20px;}
+.boxKwitansi .box1{float: left;}
+.boxKwitansi .box2{float: right;width: 300px}
+.boxKwitansi .box2 table{width: 100%}
+.boxKwitansi .box1 div{line-height: 21px}
+.boxKwitansi .box1 div.f1{font-family: 'robotobold';font-size: 12px}
+.boxKwitansi .box1 div.f2{font-family: 'robotobold';font-size: 12px}
+.title_kw{font-family: 'robotobold';font-size: 18px;text-transform: uppercase;text-decoration: underline;text-align: center;margin-top: 30px}
+.tb_kw tr td{vertical-align: middle;}
+.tb_kw tr td div:first-child{margin-top: 10px;}
+.tb_kw tr td div{line-height: 14px}
+.boxcontentUtama table.tb_kw td .boxNoneBordered{width: 100%;margin-top: 0px;}
+.boxcontentUtama table.tb_kw td .boxNoneBordered td{border: 0px;vertical-align: top;padding:0px; }
+.boxcontentUtama table.tb_kw td .boxNoneBordered td.tdBorderTop{border-top: 1px solid #373737}
+.tb_nominatif tr td{vertical-align: middle;}
